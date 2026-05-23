@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {
   Upload, Sparkles, Map, Share2, ArrowRight,
-  Zap, Shield
+  Zap
 } from 'lucide-react';
 import './Landing.css';
 
