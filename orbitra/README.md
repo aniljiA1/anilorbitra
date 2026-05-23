@@ -4,6 +4,13 @@ A full-stack MERN application that lets users upload travel booking documents (P
 
 ---
 
+# Live:
+Deploy: https://anilorbitra.vercel.app
+Backend: https://anilorbitra.onrender.com/health
+
+
+---
+
 ## Tech Stack
 
 | Layer      | Technology                                      |
