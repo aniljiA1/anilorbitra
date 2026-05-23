@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import {
-  Upload, Sparkles, Map, Share2, ArrowRight,
-  Zap
+  Upload, Sparkles, Map, Share2, ArrowRight, Zap
 } from 'lucide-react';
 import './Landing.css';
 
@@ -38,14 +37,12 @@ const steps = [
 
 const Landing = () => (
   <div className="landing">
-    {/* Background orbs */}
     <div className="landing-bg">
       <div className="orb orb-1" />
       <div className="orb orb-2" />
       <div className="orb orb-3" />
     </div>
 
-    {/* Hero */}
     <section className="hero container">
       <div className="hero-badge">
         <Sparkles size={12} />
@@ -70,7 +67,6 @@ const Landing = () => (
       <p className="hero-note">No credit card required · Takes 30 seconds to set up</p>
     </section>
 
-    {/* How it works */}
     <section className="steps-section container">
       <div className="section-label">How it works</div>
       <h2 className="section-title">From documents to itinerary in minutes</h2>
@@ -85,7 +81,6 @@ const Landing = () => (
       </div>
     </section>
 
-    {/* Features */}
     <section className="features-section container">
       <div className="section-label">Features</div>
       <h2 className="section-title">Everything you need for trip planning</h2>
@@ -100,7 +95,6 @@ const Landing = () => (
       </div>
     </section>
 
-    {/* CTA banner */}
     <section className="cta-section container">
       <div className="cta-card">
         <div className="cta-glow" />
@@ -113,7 +107,6 @@ const Landing = () => (
       </div>
     </section>
 
-    {/* Footer */}
     <footer className="landing-footer container">
       <p>© {new Date().getFullYear()} Orbitra. Built for Orbitra Technologies assignment.</p>
     </footer>
